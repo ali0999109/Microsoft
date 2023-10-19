@@ -83,10 +83,23 @@
 
 
 # Create a Watchlist to Detect Cybersecurity Threats
-- Scroll down to watchlist on the left > add new > name Tor-Ip-Addresses > alias use the same as name > source local type drag and drop this file
+- Scroll down to watchlist on the left > add new > name Tor-Ip-Addresses > alias use the same as name > source local type > Download this file   [Tor+Exit+Nodes (1).csv](https://github.com/ali0999109/Microsoft/files/13048328/Tor%2BExit%2BNodes.1.csv) drag and drop it inside > searchkey ipAddress  > review and create
+ 
+  
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/1874efdd-50f3-464a-b54b-623952d5628e)
+  ----------
 
 
-[Tor+Exit+Nodes (1).csv](https://github.com/ali0999109/Microsoft/files/13048328/Tor%2BExit%2BNodes.1.csv)
+
+   - Select the watchlist you created > view in logs
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/da8028e2-6111-41d6-bd1f-3bf125ae0534)
+    ---
+
+    - Kql query syntax
+      
+      ![image](https://github.com/ali0999109/Microsoft/assets/145396907/b0817c8d-79a4-4c26-a8f3-b55d236683bf)
+
 
 
 
