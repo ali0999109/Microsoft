@@ -26,7 +26,16 @@
 
 
 # Exploring Deployed Cybersecurity Artifacts
-- Go to resource grou
+- Go to resource group on Azure click on it > click on the resource group artifact it should have the same name as your resource group > scroll down and click diagnostic settings on the 
+  left > click add diagnostic setting > Select allLogs, AllMetrics, and send to  log analytics workspace. Select Save on top left
+  
+   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/5e91f673-6bde-4ba9-a7ab-2e6b045d29fa)
+  ----
+   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/b4c41f36-92e7-4620-a4f9-de8b386c5cd4)
+  --
+
+  
+
 
 
 
