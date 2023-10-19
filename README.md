@@ -65,6 +65,18 @@
 
 
 # Enable Artifact Intelligence in SIEM
+- Go to the settings section all the way on bottom left > settings > Select the Set UEBA button > Turn on > select Azure active directory > apply > select all and apply >
+
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/3760ac9f-0d43-4c7d-8d79-0b7e57c70aa8)
+  ------------
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/5fd4b515-098d-4f7c-a515-9b1b079f6a69)
+  ----
+
+  - Go to playbook permissions to configure sentinel to use automation playbooks > configure permissions > select the RG where your sentinel is deployed
+  - 
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/c48bbe09-5f1d-4b3f-8529-484efc8f547e)
+    ---
+
 
 
 
