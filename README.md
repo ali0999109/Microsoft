@@ -40,6 +40,26 @@
 
 
 # Exploring Created Cloud SIEM Solution
+ - Search for Microsoft sentinel and select your resource deployment. You should land here
+   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/b4ca2a61-1944-442d-a171-1e72b8fb0ce2)
+ - Click on logs you can search for your data using KQL > Log Management > Azure Activity this tracks who took action in your portal and other properties
+   
+   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/133c9c1d-dce6-4a5b-9206-7ae16d012c45)
+   ----
+   - Move to data connectors you will see all the data sources connected to Microsoft sentinel by clicking on them you can see the types of data being collected, the number of logs 
+     received, and the tables that are populated
+   
+     ![image](https://github.com/ali0999109/Microsoft/assets/145396907/8126cff7-c687-454d-be33-93b428d6949c)
+     ----
+
+   - Move to the analytics tab to see all the analytics rules that were deployed and enabled automatically to detect vulnerabilities and threats
+   - 
+     ![image](https://github.com/ali0999109/Microsoft/assets/145396907/52b069b2-87f5-45ed-8f37-c034ff1ff2a6)
+       --------
+     
+
+     
+
 
 
 
