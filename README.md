@@ -83,8 +83,10 @@
 
 
 # Create a Watchlist to Detect Cybersecurity Threats
+- Scroll down to watchlist on the left > add new > name Tor-Ip-Addresses > alias use the same as name > source local type drag and drop this file
 
 
+[Tor+Exit+Nodes (1).csv](https://github.com/ali0999109/Microsoft/files/13048328/Tor%2BExit%2BNodes.1.csv)
 
 
 
