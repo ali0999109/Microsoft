@@ -1,15 +1,7 @@
 # Microsoft Sentinel Deployment
 - Click on link to deploy Sentinel in Microsoft Azure
  https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Sentinel-All-In-One
-- Configuration > Choose the location closest to you > Daily ingestion limit 10
-  
-  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/863e986a-02d4-44fe-83b6-c84c977924e3)
-  ---
-- Settings > Enable sentinel health diagnostics>
-- Content hub > Select all for all the 3 categories
-- Data connectors > Select All
-- Analytics Rules > Check box > Select All > Review and Create
-  
+
 
 
 
@@ -19,12 +11,22 @@
 
 # Create SIEM in Azure
 
+- Configuration > Choose the location closest to you > Daily ingestion limit 10
+  
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/863e986a-02d4-44fe-83b6-c84c977924e3)
+  ---
+- Settings > Enable sentinel health diagnostics>
+- Content hub > Select all for all the 3 categories
+- Data connectors > Select All
+- Analytics Rules > Check box > Select All > Review and Create
+
+
 
 
 
 
 # Exploring Deployed Cybersecurity Artifacts
-
+- Go to resource grou
 
 
 
