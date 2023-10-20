@@ -209,7 +209,7 @@
   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/6e51bc8d-b7ef-4a4f-81c3-4975108d4399)
    ----
 
-  - To assign incidents check the boxes on the left > click actions on the top > Owner add who should be responsible > statues active
+  - To assign incidents check the boxes on the left > click actions on the top > Owner add who should be responsible > status active
     
     ![image](https://github.com/ali0999109/Microsoft/assets/145396907/be0b0f0f-b7f0-4ec0-8ba8-a9132d208a38)
     ----
