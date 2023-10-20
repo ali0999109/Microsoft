@@ -103,7 +103,50 @@
 
 
 
-# Create Detection RUle For Cybersecurity Threats
+# Create Detection Rule For Cybersecurity Threats
+- Scroll down and select the anayltics tab > create > scheduled query rule > name* succesful sign in's from tor-network > tactics and techinques uncheck everything first, click on 
+ inital access > external remote services > Next go to severity change to high
+- Go to set rule logic type in the following KQL query
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/07232271-ee88-4889-8c3d-e32cf8d106a0)
+  ---
+  - Next select entity mapping > entity type > account > sid > userid > click on add identifier > Display name > UserDisplayName Add another entity type > IP > address > ip address
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/c8c0863a-cf7b-436b-b1c6-f8c5b2dd3ea8)
+    -----
+
+  - Next select custom details type in the following
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/1f4bfc33-74ee-4c6d-98d0-14769116ba4a)
+    --
+
+  - Next go to alert details > alert name successful sign-ins from tor network > Alert property confidence score and Risk state
+
+  - Next select query scheduling change to every 5 minutes
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/cfc615c8-4e6b-464b-85e9-2131e6170f2f)
+
+  - Next incident settings > alert grouping enabled > skip automated response > review and create
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/d2dd2460-3525-478f-9319-390da855ad86)
+    -----
+
+    - The anayltics rule should be created
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/62ce7374-0416-4ee8-983c-fc136f43af6b)
+
+
+  
+ 
+ 
+
+ 
+
+
+
+    
+
+ 
+
+
+
 
 
 
