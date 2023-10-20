@@ -173,8 +173,6 @@
     ![image](https://github.com/ali0999109/Microsoft/assets/145396907/8afae76c-aeaf-4e6d-9895-38528a1ddc71)
     ------
 
-  - Type in the following new password
-    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/a58fa2a1-17f0-4590-87e7-e9cc8243f362)
 
 
 
