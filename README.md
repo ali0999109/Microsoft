@@ -158,6 +158,7 @@
   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/668ba040-eac8-440d-a845-72727be434db)
   -----
   - click on the account you created for me its ozai > click assign roles on the left > add assignment > select role security reader > assign
+    
     ![image](https://github.com/ali0999109/Microsoft/assets/145396907/3bfbeffc-6c33-4059-b29e-638365b08cd7)
     ---
 
