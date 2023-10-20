@@ -186,7 +186,7 @@
 
 
 # Infiltrating User Account To Generate Incidents In SIEM
-- Use brave browser to create a new private window with TOR
+- Use brave browser to create a new private window with TOR https://brave.com/
 - login into the azure account you just created > view account > change password
 - Rescource group > click on the resource group you created > diagnostic settings > delete the settings
 - Microsoft sentinel > settings > settings > audting and health monitoring > configure diagnostic settings > edit settings and delete 
