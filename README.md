@@ -107,6 +107,7 @@
 - Scroll down and select the anayltics tab > create > scheduled query rule > name* succesful sign in's from tor-network > tactics and techinques uncheck everything first, click on 
  inital access > external remote services > Next go to severity change to high
 - Go to set rule logic type in the following KQL query
+- 
   ![image](https://github.com/ali0999109/Microsoft/assets/145396907/07232271-ee88-4889-8c3d-e32cf8d106a0)
   ---
   - Next select entity mapping > entity type > account > sid > userid > click on add identifier > Display name > UserDisplayName Add another entity type > IP > address > ip address
@@ -152,6 +153,35 @@
 
 
 # Create User Account in Azure For SIEM Investigation
+- Search active directory > scroll down to properties on the left > manage security defaults > disabled
+- Go to users in active directory > create new user > basics create your username and password > properties give a name and job title > assignments skip > review and create
+  make sure to copy your user principal name you'll need it for later.
+  
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/668ba040-eac8-440d-a845-72727be434db)
+  -----
+  - click on the account you created for me its ozai > click assign roles on the left > add assignment > select role security reader > assign
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/3bfbeffc-6c33-4059-b29e-638365b08cd7)
+    ---
+
+  - Go to the rescouce group  > Access control (IAM) > add role assignment > privileged administrator role > move to role select contributor  > Members select your user > review and 
+   assign
+
+  - Next click on role assignments and your user should be there
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/7810e467-ae97-479b-acf0-2df1acd6a974)
+
+  - Open a new micrsoft azure loginn portal into your browser and put in your user principal name and password to login
+ 
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/8afae76c-aeaf-4e6d-9895-38528a1ddc71)
+    ------
+
+  - Type in the following new password
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/a58fa2a1-17f0-4590-87e7-e9cc8243f362)
+
+
+
+
+
+
 
 
 
@@ -159,13 +189,85 @@
 
 
 # Infiltrating User Account To Generate Incidents In SIEM
+- Use brave browser to create a new private window with TOR
+- login into the azure account you just created > view account > change password
+- Rescource group > click on the resource group you created > diagnostic settings > delete the settings
+- Microsoft sentinel > settings > settings > audting and health monitoring > configure diagnostic settings > edit settings and delete 
+- Create a virtual machine >  click on the cloud shell button > powershell > create storage show advanced settings use existing rescource group > create
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/ea277219-e87b-444d-91bb-614dd4da20d0)
+ - Microsoft sentinel should start picking up the newly created threats in 5 minutes
 
 
 
 
 # Exploring Created Cybersecurity Threats In SiEM
+- Go back to your regular browswer and you will see the new incidents in the dashboard
+  
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/c7e5eaad-5f55-4d86-8e55-d1b8432108fe)
+  ----
+- Click on manage incidents you will see details of all the incidents you created through the TOR browser
+  
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/c8e8cf10-0a21-47f0-8dc0-3e461839467a)
+  ---
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/6e51bc8d-b7ef-4a4f-81c3-4975108d4399)
+   ----
+
+  - To assign incidents check the boxes on the left > click actions on the top > Owner add who should be responsible > statues active
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/be0b0f0f-b7f0-4ec0-8ba8-a9132d208a38)
+    ----
+
+  
+
+
+  
 
 
 
 
-# How to Remediate Cybersecurity Incident
+
+
+# How to Investigate Cybersecurity Incident
+- Click on one of the incidents and click view full detail
+  
+ ![image](https://github.com/ali0999109/Microsoft/assets/145396907/12afb78d-e578-4885-805c-4447720cb383) 
+  -----
+
+  - The details
+  
+  ![image](https://github.com/ali0999109/Microsoft/assets/145396907/15a016cb-5c6e-4110-a573-6bd48a37591a)
+   ---
+
+  - Click on events it will show you the account used to login,its location, and ip address
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/38cf08c9-538c-4b90-85d8-51b357caf01e)
+    ---
+
+  - Copy and paste the ip address into AbuseIPDB to check if this is a malcious ip address > it shows this was used as a Tor exit node
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/527b3754-0e89-4b7a-839b-2833af92a4be)
+    ---
+
+  - To see when the user logged in type in the following query in KQL change the username to one you created > Time range for the past week > Click run
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/dd4ec01b-e0ce-4ec5-bbf4-93ccd37287cf)
+    ----
+
+  - Go back to microsoft sentinel > entity behavior > search the email for the Tor account > it will show every alert generated by this account
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/46f73e8f-8af4-4be0-9c70-647847849089)
+    ---
+
+
+
+
+    -click on azure activity a new window will open to see logs in detail 
+    
+    ![image](https://github.com/ali0999109/Microsoft/assets/145396907/1a950eb6-1e88-4693-8ec1-a0969ff5bdd7)
+    ---
+
+
+
+
+
+ 
