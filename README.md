@@ -96,9 +96,7 @@
     ![image](https://github.com/ali0999109/Microsoft/assets/145396907/da8028e2-6111-41d6-bd1f-3bf125ae0534)
     ---
 
-    - Kql query syntax
-      
-      ![image](https://github.com/ali0999109/Microsoft/assets/145396907/b0817c8d-79a4-4c26-a8f3-b55d236683bf)
+    
 
 
 
